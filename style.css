@@ -1,0 +1,125 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    animation: color-change 1s infinite;
+    mso-animation: color-change 1s infinite;
+    mso-animation-literation: infinite;
+    margin-right: 90px;
+    margin-left: 90px;
+    text-align: center; 
+    color: #ffffff;
+    font-size: 48px; 
+    text-shadow: 2px 2px 5px #000000; 
+    margin-bottom: 20px;
+    
+  }
+
+.careless{
+    color: #367c39;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: center;
+    margin-right: center;
+    margin-left: center;
+    text-shadow: 1px 1px 20px white;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: solid;
+    padding: 10px 10px 10px;
+    display:inline;
+    position: absolute;
+    top: 12%;
+    left: 44.7%;
+    
+} 
+
+.trailer{
+  color: #367c39;
+  background-color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  width: center;
+  margin-right: center;
+  margin-left: center;
+  text-shadow: 1px 1px 20px white;
+  text-align: center;
+  border-radius: 20px;
+  text-decoration: solid;
+  padding: 10px 10px 10px;
+  display:inline;
+  position: absolute;
+  top: 37.2%;
+  left: 45.5%;
+
+}
+  #botao1 {
+    background-position: center center;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:solid;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px; /* Rounded borders */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+  }
+  
+  #botao1:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+  
+  #botao1:active {
+    background-color: #367c39; /* Even darker green when clicked */
+    transform: translateY(2px); /* Slight downward shift for click feedback */
+  }
+  
+  #botao {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    margin-top: 20px;
+    position: absolute;
+    top: 20%;
+    left: 46%;
+  }
+  
+  #botao:hover {
+    background-color: #3e8e41; 
+  }
+  
+  #botao1:active {
+    background-color: #367c39; 
+    transform: translateY(2px); 
+  }
+
+  body{
+    background-image: url(img/istockphoto-1333707933-612x612.jpg);
+    background-color: rgb(63, 17, 17);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
